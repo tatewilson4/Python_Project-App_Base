@@ -11,4 +11,6 @@ Steps to follow
 -git remote add origin git@github.com:<YOUR ACCOUNT>/<YOUR REPOS>.git
 -git push origin master
 
-
+If you run into the fatal remote origin already exists error
+set a new origin with 
+-git remote set-url origin https://github.com/your/repository
